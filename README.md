@@ -119,30 +119,31 @@ The application uses a relational database with the following main entities:
 
 ### Installation Steps
 
-- 1.  Clone the repository
+Clone the repository
 
 ```
 git clone <repository-url>
 cd demofullstack
 ```
 
-- 2.  Install dependencies
+Install dependencies
 
 ```
 npm install
 ```
 
-- 3.  Configure environment variables
+Configure environment variables
 
 - Create a .env file based on .env.example
 - Set your database credentials and other configuration options
-- 4.  Run database migrations
+
+Run database migrations
 
 ```
 npx sequelize-cli db:migrate
 ```
 
-- 5.  Start the development server
+Start the development server
 
 ```
 npm start
