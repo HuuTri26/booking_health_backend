@@ -9,8 +9,8 @@ let sendSimpleEmail = async (dataSend) => {
     secure: true,
     auth: {
       // TODO: replace `user` and `pass` values from <https://forwardemail.net>
-      user: "huutri91thcslvm@gmail.com",
-      pass: "cdmj vjky syba odkf",
+      user: process.env.EMAIL_APP, // generated ethereal user
+      pass: process.env.EMAIL_APP_PASSWORD, // generated ethereal password
     },
   });
   let info = await transporter.sendMail({
@@ -84,8 +84,8 @@ let sendAttachment = async (dataSend) => {
         secure: true,
         auth: {
           // TODO: replace `user` and `pass` values from <https://forwardemail.net>
-          user: "huutri91thcslvm@gmail.com",
-          pass: "cdmj vjky syba odkf",
+          user: process.env.EMAIL_APP, // generated ethereal user
+          pass: process.env.EMAIL_APP_PASSWORD, // generated ethereal password
         },
       });
       let info = await transporter.sendMail({
