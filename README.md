@@ -123,7 +123,7 @@ Clone the repository
 
 ```
 git clone https://github.com/HuuTri26/booking_health_backend.git
-cd demofullstack
+cd booking_health_backend
 ```
 
 Install dependencies
