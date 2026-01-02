@@ -122,7 +122,7 @@ The application uses a relational database with the following main entities:
 Clone the repository
 
 ```
-git clone <repository-url>
+git clone https://github.com/HuuTri26/booking_health_backend.git
 cd demofullstack
 ```
 
